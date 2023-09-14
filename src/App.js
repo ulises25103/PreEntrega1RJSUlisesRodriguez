@@ -2,7 +2,9 @@ import React from 'react';
 import Navbar from './components/navbar.js';
 import ItemListContainer from './components/itemlistcontainer.js';
 
-function App() {
+
+
+function App() { 
   return (
     <div className="App">
       <Navbar />
@@ -10,5 +12,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
