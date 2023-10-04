@@ -5,9 +5,9 @@ import Categorias from './categorias';
 
 const Navbar = () => {
     return (
-        <nav className="bg-blue-500 p-4">
+        <nav className="bg-black p-4 sticky z-1 top-0  ">
         <div className="container mx-auto flex justify-between items-center text-white">
-          <Link to="/" className="brand text-2xl font-bold cursor-pointer transform transition-transform hover:scale-105">miTienda</Link>
+          <Link to="/" className="text-2xl font-bold cursor-pointer transform transition-transform hover:scale-105 "><span className='text-blue-500'>mi</span>Tienda</Link>
           <div className="categories space-x-4">
               <Categorias />
           </div>

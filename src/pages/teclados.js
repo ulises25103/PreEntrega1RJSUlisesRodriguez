@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileCard from '../components/profilecard.js';
+import ProfileCard from '../components/productos.js';
 import TecladoG from '../components/img/tecladogamer.jpg';
 import Teclado from '../components/img/teclado.jpg';
 import TecladoGenerico from '../components/img/tecladogenerico.jpg';

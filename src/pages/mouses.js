@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileCard from '../components/profilecard.js';
+import ProfileCard from '../components/productos.js';
 import MouseG from '../components/img/mousegamer.jpg';
 import Mouse from '../components/img/mouse.jpg';
 import MouseGenerico from '../components/img/mousegenerico.png';
