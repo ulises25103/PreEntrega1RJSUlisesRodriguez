@@ -1,22 +1,29 @@
-import React, {  useContext, useEffect, useState } from 'react';
+import React, { useEffect, useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { collection, getDocs} from "firebase/firestore";
-import { db } from "../config/firebase";
-import ItemListContainer from '../components/itemlistcontainer';
 import { DataContext } from '../context/DataContext';
-import { useCart } from '../components/useCart';
+import { useCart } from './useCart';
 
-function Cards(){
-    
-    const [ itemList ] = useContext(DataContext)
 
-    const {addToCart,removeFromCart, cart, checkProductInCart} = useCart()
+function Mouses() {
+  const [itemList] = useContext(DataContext);
+  const [filteredItems, setFilteredItems] = useState([]);
+  const {addToCart,removeFromCart, cart, checkProductInCart} = useCart()
 
-    return(
-        <div>
-            <ItemListContainer greeting={"¡Bienvienido a mi Tienda Online!"}/>
-        <div  className='container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mt-5 items-list'>
-            {itemList.map((producto)=>{
+  const filterProductsByCategory = (category) => {
+    const filteredProducts = itemList.filter((product) => product.categoria === category);
+    setFilteredItems(filteredProducts);
+  };
+
+
+  useEffect(() => {
+    filterProductsByCategory('mouse');
+  }, [itemList]);
+
+
+
+return (
+      <div  className='container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mt-5 items-list'>
+            {filteredItems.map((producto)=>{
                 const isProductInCart = checkProductInCart(producto)
                 return( 
                 <div key={producto.id} categoria="todos" className="max-w-sm rounded overflow-hidden shadow-lg mb-3 transform transition-transform hover:scale-105">
@@ -40,7 +47,7 @@ function Cards(){
                                 : <p>Comprar + </p>
                             }
                         </button>
-                        <button className="bg-[#09f] agregar-btn hover:bg-blue-700 text-white px-2">
+                        <button className="bg-blue-500 agregar-btn hover:bg-blue-700 text-white px-2">
                             <Link to={`/productos/${producto.id}`}><p>Detalles</p></Link>
                         </button>
                     </div>
@@ -49,8 +56,7 @@ function Cards(){
             )   
         })}
     </div>
-    </div>
-    )
+  );
 }
 
-export default Cards;
+export default Mouses;

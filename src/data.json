@@ -1,0 +1,122 @@
+[ 
+    {
+      "id": 1,
+      "nombre": "Mouse RGB",
+      "categoria": "Mouses",
+      "descripcion": "Mouse con retroiluminación RGB personalizable.",
+      "precio": 79.99,
+      "imagen": "https://app.contabilium.com/files/explorer/16277/Productos-Servicios/concepto-5510243.jpg",
+      "disponibilidad": true,
+      "reseñas": [
+        {
+          "id": 1,
+          "nombre_usuario": "Usuario1",
+          "comentario": "Excelente mouse. La retroiluminación es asombrosa.",
+          "calificacion": 5
+        },
+        {
+          "id": 2,
+          "nombre_usuario": "Usuario2",
+          "comentario": "Muy buen producto, cómodo para usar.",
+          "calificacion": 4
+        }
+      ]
+    },
+    {
+      "id": 2,  
+      "nombre": "Mouse Gamer",
+      "categoria": "Mouses",
+      "descripcion": "Mouse diseñado para juegos de alta precisión.",
+      "precio": 49.99,
+      "imagen": "https://www.sevenelectronics.com.ar/images/000000game-XM550495841-1-auricular-gamer-XH150-sevenelectronicsXM550.jpg",
+      "disponibilidad": true,
+      "reseñas": [
+        {
+          "id": 1,
+          "nombre_usuario": "Usuario3",
+          "comentario": "El mouse gamer es excelente para juegos.",
+          "calificacion": 5
+        },
+        {
+          "id": 2,
+          "nombre_usuario": "Usuario4",
+          "comentario": "Me gusta mucho el diseño del mouse.",
+          "calificacion": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Mouse Generico",
+      "categoria": "Mouses",
+      "descripcion": "Mouse generico, ideal para oficinas",
+      "precio": 29.99,
+      "imagen": "https://www.planetoffice.com.ar/images_prg/mouse/genius/00003126-1372965864_std.jpg",
+      "disponibilidad": true,
+      "reseñas": [
+        {
+          "id": 1,
+          "nombre_usuario": "Usuario5",
+          "comentario": "Es un buen mouse a un precio asequible.",
+          "calificacion": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Teclado",
+      "categoria": "Teclados",
+      "descripcion": "Teclado Normal",
+      "precio": 29.99,
+      "imagen": "https://mexx-img-2019.s3.amazonaws.com/39016_2.jpeg",
+      "disponibilidad": true,
+      "reseñas": [
+        {
+          "id": 1,
+          "nombre_usuario": "Usuario6",
+          "comentario": "Funciona perfectamente, sin problemas.",
+          "calificacion": 5
+        },
+        {
+          "id": 2,
+          "nombre_usuario": "Usuario7",
+          "comentario": "Nada especial, pero cumple su función.",
+          "calificacion": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Teclado Gamer",
+      "categoria": "Teclados",
+      "descripcion": "Teclado Gamer",
+      "precio": 49.99,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_654203-MLA54777123367_032023-O.webp",
+      "disponibilidad": true,
+      "reseñas": [
+        {
+          "id": 1,
+          "nombre_usuario": "Usuario8",
+          "comentario": "Genial para juegos, los botones son muy receptivos.",
+          "calificacion": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Teclado Generico",
+      "categoria": "Teclados",
+      "descripcion": "Teclado generico, ideal para oficinas",
+      "precio": 19.99,
+      "imagen": "https://d3ugyf2ht6aenh.cloudfront.net/stores/349/695/products/k120_11-c48d1e2f354a86573a15398975703670-640-0.jpg",
+      "disponibilidad": true,
+      "reseñas": [
+        {
+          "id": 1,
+          "nombre_usuario": "Usuario9",
+          "comentario": "Un teclado simple y económico para el trabajo diario.",
+          "calificacion": 4
+        }
+      ]
+    }
+  ] 
