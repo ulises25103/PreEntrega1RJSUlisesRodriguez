@@ -14,4 +14,4 @@ Este proyecto, **MiTienda**, es un prototipo de tienda en línea de productos in
 
 - **Funciones, useEffect, useState**: Se aplican funciones para modular el código y reutilizar lógica. Las funciones de `useEffect` y `useState` se utilizan para gestionar el ciclo de vida de los componentes y el estado de la aplicación.
 
-- **DataProvider**: Se utiliza un DataProvider para la administración centralizada de los datos de la tienda.
+- **Context**: El contexto (Context) en React es una característica que te permite pasar datos a través del árbol de componentes sin tener que pasar propiedades manualmente a través de cada nivel del árbol. Es especialmente útil cuando tienes datos que son necesarios en varios componentes en diferentes niveles de jerarquía sin tener que pasar esas propiedades a través de múltiples niveles de componentes intermedios.
