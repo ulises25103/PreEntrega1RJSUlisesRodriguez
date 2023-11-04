@@ -1,6 +1,6 @@
 # MiTienda - Proyecto de React
 
-![miTienda Logo](link-a-tu-logo.png)
+![miTienda Logo](asdad.png)
 
 Este proyecto, **MiTienda**, es un prototipo de tienda en línea de productos informáticos desarrollado como parte de un curso de React en Coderhouse. Fue creado con fines educativos para aprender y aplicar conceptos y tecnologías clave en el desarrollo web con React.
 
