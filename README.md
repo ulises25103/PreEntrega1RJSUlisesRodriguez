@@ -14,4 +14,4 @@ Este proyecto, **MiTienda**, es un prototipo de tienda en línea de productos in
 
 - **Funciones, useEffect, useState**: Se aplican funciones para modular el código y reutilizar lógica. Las funciones de `useEffect` y `useState` se utilizan para gestionar el ciclo de vida de los componentes y el estado de la aplicación.
 
-- **Context**: Context en React permite compartir datos entre componentes sin pasar propiedades manualmente a través de múltiples niveles del árbol. Esto simplifica el paso de datos a través de la jerarquía de componentes.
+- **Context**: Permite compartir datos entre componentes sin pasar propiedades manualmente a través de múltiples niveles del árbol. Esto simplifica el paso de datos a través de la jerarquía de componentes.
